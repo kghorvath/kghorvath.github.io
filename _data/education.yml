@@ -1,0 +1,6 @@
+- name: Virginia Tech
+  dates: 2011 - 2015
+  qualification: BSc Mechanical Engineering
+  description: | # this will include new lines to allow paragraphs
+
+        I studied for 4 years at Virginia Tech, earning my bachelor's degree in Mechanical Engineering. I'm proud of our senior project, which was to design and prototype a portable dental chair small enough to be carried onto a commercial flight, yet stable and sturdy enough to withstand use in underdeveloped areas and accomodate a wide range of body shapes and sizes. Our design was a success and in fact, has been put into use by the outreach dentistry program at the University at Buffalo. 

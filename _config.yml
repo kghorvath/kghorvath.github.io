@@ -1,0 +1,83 @@
+# Site
+repository: kghorvath/kghorvath.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Personal info
+name: Kamin Horvath
+title: Assistant Project Manager
+email: kamin@kghorvath.com
+website: https://kghorvath.com
+
+darkmode: false
+
+# Social links
+github_username:  kghorvath
+linkedin_username: khorvath
+
+# Additional icon links
+additional_links:
+- title: PGP Key
+  icon: fas fa-key
+  url: https://github.com/kghorvath/kghorvath.github.io/blob/master/key/publicKey_kamin%40kghorvath.com_690b23ab.asc
+# - title: another link
+#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+ Hello, my name is Kamin Horvath. I am an assistant project manager working in the mechanical contracting industry. I specialize in direct for owner sales and estimation of HVAC and plumbing projects.
+
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+more_content: | # this will include new lines to allow paragraphs
+ Aside from my roles as a sales assistant and IT outreach, I also like to work with technology and networking in my space time. Some of my personal projects include
+
+   - Running a home server lab.
+   - Building and running this website. I host this site on my personal repository on GitHub Pages, built with jekyll using the wonderful [modern resume theme.](https://github.com/sproogen/modern-resume-theme)
+   - Retro computing. I enjoy building and tinkering with older computers and software.
+
+
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
