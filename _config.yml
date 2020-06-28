@@ -8,11 +8,10 @@ title: Assistant Project Manager
 email: kamin@kghorvath.com
 website: https://kghorvath.com
 
-
 darkmode: true 
 
 # Social links
-github_username:  kghorvath
+github_username: kghorvath
 linkedin_username: khorvath
 twitter_username: mohaas05
 # Additional icon links
@@ -28,7 +27,7 @@ additional_links:
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+google_analytics: "UA-8945456-6"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
