@@ -1,10 +1,18 @@
+- company: ABM
+  link: abm.com
+  job_title: Business Development Manager
+  dates: February 2022 - Present
+  description: | # this will include new lines to allow paragraphs
+
+        I currently work for ABM Technical Solutions in Alpharetta, GA. My primary role is driving and developing HVAC project and maintenance sales to commercial and industrial end users. I also work to help sell other ABM lines such as arc flash testing, EV charging, and janitorial services.
+
 - company: Maxair Mechanical
   link: maxairinc.com
   job_title: Assistant Project Manager
-  dates: February 2020 - Present
+  dates: February 2020 - Februrary 2022
   description: | # this will include new lines to allow paragraphs
 
-        I currently work as an assistant project manager for Maxair, a mechanical contractor operating in Georgia. I work for our Direct for Owner (DFO) projects team, specializing in selling directly to property owners and managers. Responsibilites range from sales of individual equipment replacements, to developing full capital plans for ongoing work.
+        I worked as an assistant project manager for Maxair, a mechanical contractor operating in Georgia, for the Direct for Owner (DFO) projects team, specializing in selling directly to property owners and managers. Responsibilites range from sales of individual equipment replacements, to developing full capital plans for ongoing work.
 
 - company: James M. Pleasants Company
   link: jmpco.com
