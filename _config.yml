@@ -2,11 +2,14 @@
 repository: kghorvath/kghorvath.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
+# Content configuration version
+version: 2
+
 # Personal info
 name: Kamin Horvath
 title: Business Development Manager
 email: kamin@kghorvath.com
-website: https://kghorvath.com
+website: https://www.kghorvath.com
 
 darkmode: true 
 
@@ -22,8 +25,8 @@ additional_links:
   icon: fas fa-key
   url: https://keyoxide.org/690B23AB88DB51FF9DE715AEF1D143CB0E1ECCF6
 - title: Resume
-  icon: fas file-user
-  url: https://github.com/kghorvath/resume/blob/8e554b4e392e00798dd8785160298b1de56b3492/res.pdf
+  icon: fas fa-file-alt
+  url: assets/Kamin_Horvath_Resume.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -40,29 +43,54 @@ about_profile_image: images/38924930.jpg
 about_content: | # this will include new lines to allow paragraphs
  Hello, my name is Kamin Horvath. I am an business development manager working in the mechanical contracting industry. I specialize in direct for owner sales of mechanical projects and maintenance.
 
-# Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+content:
+- title: Experience # Title for the section
+  layout: list # Type of content section (list/text)
+  content:
+    - layout: left
+      title: ABM
+      link: abm.com
+      sub_title: Business Development Manager
+      caption: February 2022 - Present
+      description: |
+        I currently work for ABM Technical Solutions in Alpharetta, GA. My primary role is driving and developing HVAC project and maintenance sales to commercial and industrial end users. I also work to help sell other ABM lines such as arc flash testing, EV charging, and janitorial services.
+   
+    - layout: left
+      title: Maxair Mechanical
+      link: maxairmech.com
+      sub_title: Assistant Project Manager
+      caption: February 2020 - February 2022
+      description: |
+        I worked as an assistant project manager for Maxair, a mechanical contractor operating in Georgia, for the Direct for Owner (DFO) projects team, specializing in selling directly to property owners and managers. Responsibilites range from sales of individual equipment replacements, to developing full capital plans for ongoing work.
 
-# Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
+    - layout: left
+      title: James M. Pleasants Co.
+      link: jmpco.com
+      sub_title: Technical Engineering Sales Support
+      caption: May 2015 - February 2020
+      description: |
+        I started at this company as an inside sales representative, providing pricing on replacement parts and equipment to our customers. I was promoted to this position as a technical resource for the outside sales team in our Georgia branch. I assist our salesmen as well as some of the engineers we work with in designing systems along with the equipment to go along with it. I also assemble project quotes and submittals for our contractor and wholesale customers.
 
-# Education Section
-# education_title: Education #(Use this to override about education section title)
+- title: Education
+  layout: list
+  content:
+    - layout: left
+      title: Virginia Tech
+      caption: 2011 - 2015
+      sub_title: B.Sc., Mechanical Engineering
+      description: |
+        I studied for 4 years at Virginia Tech, earning my bachelor's degree in Mechanical Engineering. I'm proud of our senior project, which was to design and prototype a portable dental chair small enough to be carried onto a commercial flight, yet stable and sturdy enough to withstand use in underdeveloped areas and accomodate a wide range of body shapes and sizes. Our design was a success and in fact, has been put into use by the outreach dentistry program at the University at Buffalo. 
 
-# More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-more_content: | # this will include new lines to allow paragraphs
- Aside from my roles as a sales assistant and IT outreach, I also like to work with technology and networking in my space time. Some of my personal projects include
-
-   - Running a home server lab. I'm interested in retrocomputing and home networking, and host a number of services including my personal webpage, and a Mastodon instance.
-   - Building and running this website. I host this site on my personal repository on GitHub Pages, built with jekyll using the wonderful [modern resume theme.](https://github.com/sproogen/modern-resume-theme)
-   - Retro computing. I enjoy building and tinkering with older computers and software.
-
-
+- title: Projects
+  layout: text
+  content: |
+    Aside from my roles as a sales assistant and IT outreach, I also like to work with technology and networking in my space time. Some of my personal projects include
+    - Running a home server lab. I'm interested in retrocomputing and home networking, and host a number of services including my personal webpage, and a Mastodon instance. I also host this very site on my personal repository on GitHub Pages, built using the wonderful [modern resume theme.](https://github.com/sproogen/modern-resume-theme)
+    - Retro computing. I enjoy building and tinkering with older computers and software.
 
 # Footer
 footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
